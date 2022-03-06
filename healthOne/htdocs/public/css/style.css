@@ -1,0 +1,161 @@
+
+.background{
+    background-color: red;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+    min-height: 100vh;
+    max-height: 150vh;
+}
+
+.navbar{
+    padding: 0;
+}
+.homeImage{
+    float: right;
+    height: 1500px;
+}
+
+.text{
+    margin-top: 100px;
+}
+
+.opn{
+    background-color: rgba(255, 255, 255, 0.658);
+    font-size: 29px;
+}
+
+.cata{
+    height: 300px;
+}
+
+.imgs{
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+.imag{
+    background-color: rgba(255, 255, 255, 0.658);
+    font-size: 20px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+
+.prod{
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+.prot{
+    text-align: center;
+    background-color: rgb(163, 67, 67);
+}
+
+.prot2{
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(163, 67, 67);
+}
+
+.prods{
+    width: 400px;
+    height: 450px;
+    margin-left: 700px;
+}
+
+.card-img-top{
+    height: 300px;
+    width: 300PX;
+}
+
+.images{
+    margin-top: 50px;
+    border-radius: 50%;
+}
+
+.pull-right img-thumbnail {
+    margin-top: -10px;
+    margin-bottom: 10px
+}
+
+.header-row {
+    margin-top: 20px
+}
+
+.banner-img {
+    margin-bottom: 20px
+}
+
+.navbar {
+    margin-bottom: 0;
+   background-color: red;
+   color: black;
+}
+
+.product-img {
+    width: 70%;
+}
+
+.clearfix {
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    background-color:tomato ;
+    margin-top: 50px;
+}
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+.size{
+    font-size: 30px;
+    margin-top: 300px;
+    color: darkred;
+}
+
+.navColor .nav-link{
+    color:black;
+    font-size: 25px;
+}
